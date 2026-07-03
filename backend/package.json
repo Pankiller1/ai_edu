@@ -1,0 +1,19 @@
+{
+  "name": "ai-edu-backend",
+  "version": "1.0.0",
+  "description": "基于大语言模型的个性化学习辅导系统 - 后端服务",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ai-edu",
+  "version": "1.0.0",
+  "description": "基于大语言模型的个性化学习辅导系统（前端 + 后端）",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && npm --prefix backend install && npm --prefix frontend install",
+    "dev": "concurrently -n backend,frontend -c blue,magenta \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "start": "npm run dev",
+    "build": "npm --prefix frontend run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

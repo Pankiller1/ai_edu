@@ -1,0 +1,10 @@
+node_modules/
+**/node_modules/
+dist/
+.env
+**/.env
+backend/data/history.json
+*.log
+.claude/
+*.pdf
+*.mp4
